@@ -142,11 +142,11 @@
 
 <div id="login-screen">
   <h2>Giriş Yap</h2>
-  <p>Lütfen şifreyi gir, gözüm:</p>
+  <p> Gözüm, başladığı için güzel olan her şey, bittiğinde anlam kazanır; sonsuzluk değil, son verir değeri.:</p>
   <input type="password" id="password-input" placeholder="Şifre">
   <br>
   <button id="login-btn" onclick="checkPassword()">Giriş</button>
-  <p id="error-msg">Hatalı şifre!</p>
+  <p id="error-msg">Buraya kadar gözüm.</p>
 </div>
 
 <div id="quiz-container">
@@ -244,7 +244,7 @@ const scoreWrongBox = document.querySelector(".score-wrong");
 // Şifre Kontrol
 function checkPassword() {
   const password = passwordInput.value;
-  if (password === "yusufabi") {
+  if (password === "djsjgnsnngnd") {
     loginScreen.style.display = "none";
     quizContainer.style.display = "block";
     scoreboard.style.display = "flex"; // Skoru göster
@@ -328,4 +328,5 @@ function nextQuestion() {
 </script>
 
 </body>
+
 </html>
